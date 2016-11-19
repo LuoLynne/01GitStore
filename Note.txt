@@ -1,0 +1,38 @@
+Git normal use methold:
+
+1. Regist your Information
+-> git config --global user.name "Your name"
+-> git config --global user.email "Your email"
+
+2. Up your File
+-> git add "Your File Name"
+-> git commit -m "discription"
+
+3. Get you modify status
+-> git status
+
+4. Find the difference of your Change
+-> git diff "Your File Name"
+
+5. Cat your File Version and Discription
+-> git log
+
+6. Record your Command
+-> git relog?
+
+7. Remove File from Server
+-> git rm "Your File Name"
+-> git commit -m "Discription"
+
+8. Come back to previous Version
+-> git log
+-> git reset --head "Version ID or HEAD"
+
+9. Clone form other Computer, the link come form your master
+-> git clone https://github.com/jquery/jquery.git 
+
+10. Push your Change to github.com
+-> git push origin master
+
+11. Check out from Server to Local
+-> git checkout -- "Your File Name"
