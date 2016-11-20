@@ -1,0 +1,67 @@
+body {
+  font:12px Arial,"微软雅黑";
+  color:#666;
+}
+#discuss {
+  margin-top: 60px;
+}
+#discuss,div.mt,#discuss_content,#discuss_data {
+  width:990px;
+}
+div.mt {
+  border:1px solid #ddd;
+  background-color: #f7f7f7;
+  height:30px;
+  border-top: 2px solid #999;
+}
+#discuss_content {
+  border-bottom: 1px solid #ddd;
+}
+#discuss_data tr.header td{
+  height:20px;
+  vertical-align:middle;
+  border-bottom:1px solid #ddd;
+  color:#666;
+  font-weight: bold;
+}
+#discuss_data td {
+  text-align: center;
+  border-bottom:1px dotted #ddd;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#discuss_data td.col1 {
+  width:620px;
+  text-align: left;
+}
+#discuss_data td.col2 {
+  width:70px;
+  text-align: center;
+}
+#discuss_data td.col3 {
+  width:100px;
+  text-align: center;
+}
+#discuss_data td.col4 {
+  text-align: center;
+}
+#discuss_data a {
+  color:#005aa0;
+  text-decoration: none;
+}
+#discuss_data a:hover {
+  text-decoration: underline;
+}
+#discuss_data b {
+  /*border: 1px solid red;*/
+  /*border: 0px;*/
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-right: 6px;
+}
+#discuss_data b.shai {
+  background:url(images/iconlist_1.png) no-repeat -110px -217px;
+}
+#discuss_data b.lun {
+  background:url(images/iconlist_1.png) no-repeat -152px -217px;
+}

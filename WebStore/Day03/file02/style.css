@@ -1,0 +1,21 @@
+table {
+  width:600px;
+  border:1px solid #000;
+  /*边框合并*/
+  border-collapse:separate;
+  text-align: center;
+  margin:0px auto;
+  /*边框间距(border-collapse:separate)*/
+  /*border-spacing: 10px 20px;*/
+
+
+}
+caption {
+  /*标题位置*/
+  margin:0px auto;
+  caption-side: bottom;
+}
+td {
+  border:1px solid #000;
+  width:33%;
+}
