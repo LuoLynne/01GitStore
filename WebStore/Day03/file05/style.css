@@ -104,11 +104,16 @@ div.mt {
 #discuss .totaldiscuss {
   float:right;
 }
-#discuss .extra span {
+#discuss .totaldiscuss span {
   color: #666;
   margin-right: 10px;
 }
-#discuss .extra a {
+#discuss .totaldiscuss a {
   color: #005aa0;
   text-decoration: none;
+}
+#discuss .extra {
+  /*这是浮动的父层元素，使用overflow:hidden解决div高度变0的问题*/
+  overflow: hidden;
+  margin-bottom: 2px;
 }
