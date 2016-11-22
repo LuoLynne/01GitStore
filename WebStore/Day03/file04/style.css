@@ -15,3 +15,29 @@ div {
   /*float:right;*/
   clear:both;
 }
+#d4 {
+  width:800px;
+  height:100px;
+  background-color:pink;
+}
+#d5 {
+  background-color: yellow;
+  height:100px;
+  float:left;
+  line-height: 100px;
+  text-align: center;
+}
+#d6 {
+  background-color: purple;
+  float:right;
+  /*clear:left;*/
+}
+#d7 {
+  width:30px;
+  height:30px;
+  background-color: orange;
+  display:inline-block;
+  /*text-align:right;*/
+  /*float:right;*/
+  /*margin-right: 20px;*/
+}

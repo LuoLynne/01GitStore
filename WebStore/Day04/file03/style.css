@@ -1,0 +1,31 @@
+/*浏览器兼容性处理*/
+* {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+ul {
+  width:600px;
+  height:40px;
+  background:#005aa0;
+  margin:10px auto;
+}
+ul li {
+  float:left;
+}
+ul li a {
+  display:inline-block;
+  width:120px;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  color:#fff;
+  font-weight:bold;
+  font-family:"microsoft yahei";
+  font-size:14px;
+  text-decoration:none;
+}
+ul li a:hover {
+  color:yellow;
+  cursor:crosshair;
+}

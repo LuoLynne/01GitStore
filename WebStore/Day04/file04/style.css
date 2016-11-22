@@ -1,0 +1,86 @@
+* {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+#div1 {
+  float:left;
+  width:200px;
+  height:40px;
+  background-color: red;
+}
+#div1 .productclass {
+  float:left;
+  /*display:inline-block;*/
+  width:200px;
+  height:40px;
+  margin:0px;
+  color:#fff;
+  font-size:18px;
+  line-height: 40px;
+  margin-left:20px;
+  text-decoration: none;
+  cursor:crosshair;
+}
+#div1 b {
+  float:right;
+  /*display:block;*/
+  width:20px;
+  height:20px;
+  background: url(images/iconlist_2.png) no-repeat -65px 0px;
+  margin-top: 10px;
+  margin-right:20px;
+}
+#div2 {
+  width:100%;
+  height:40px;
+  background-color:#e4393c;
+}
+#div2 ul {
+  width:800px;
+  margin-left:200px;
+}
+#div2 ul li {
+  float:left;
+}
+#div2 ul li a {
+  display:inline-block;
+  width:100px;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+#div2 ul li a:hover {
+  color:blue;
+  background-color:red;
+}
+.productpart {
+  border:2px solid red;
+  margin-top:-2px;
+  width:196px;
+  height:600px;
+}
+.productpart ul {
+  width:196px;
+  height:600px;
+}
+.productpart ul li {
+  float:left;
+}
+.productpart ul li h3 {
+  width:180px;
+  padding-left: 8px;
+  height:40px;
+  line-height: 40px;
+  font-size: 16px;
+  border-bottom:2px solid transparent;
+}
+.productpart ul li h3:hover {
+  border-bottom:2px solid silver;
+  cursor:default;
+
+}
