@@ -1,0 +1,53 @@
+#a1 {
+  /*行内元素不以改宽高*/
+  width:200px;
+  height:40px;
+  border:1px solid #e4393c;
+}
+#a2 {
+  /*display隐藏元素，不占空间，其它元素来占位*/
+  display:none;
+}
+#a3 {
+  display:block;
+  background-color:yellow;
+  height:40px;
+  width:100px;
+  line-height: 40px;
+  text-align: center;
+}
+#a4 {
+  display:inline-block;
+  background-color:green;
+  height:40px;
+  width:200px;
+  line-height: 40px;
+  text-align: center;
+}
+#a5 {
+  display:block;
+  background-color:silver;
+  height:40px;
+  width:200px;
+  line-height: 40px;
+  text-align: center;
+  /*visibility隐藏元素，但会占位*/
+  visibility:hidden;
+}
+#a6 {
+  display:block;
+  background-color:silver;
+  height:40px;
+  width:200px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+#a6:hover {
+  /*鼠标样式：pointer[hand],crosshair[+],default,text[I],help[?],wait[circle]*/
+  cursor:crosshair;;
+}
+.styset {
+  /*透明度设置0~1*/
+  opacity:0.5;
+}

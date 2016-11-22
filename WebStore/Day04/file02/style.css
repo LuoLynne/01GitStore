@@ -1,0 +1,40 @@
+#div1 {
+  float:left;
+  width:200px;
+  height:40px;
+  background-color: red;
+}
+/*#div1 p{
+  width:200px;
+  height:40px;
+  margin:0px;
+
+}*/
+#div1 .productclass {
+  float:left;
+  /*display:inline-block;*/
+  width:200px;
+  height:40px;
+  margin:0px;
+  color:#fff;
+  font-size:14px;
+  line-height: 40px;
+  margin-left:20px;
+  text-decoration: none;
+  cursor:crosshair;
+}
+#div1 b {
+  float:right;
+  /*display:block;*/
+  width:20px;
+  height:20px;
+  background: url(images/iconlist_2.png) no-repeat -65px 0px;
+  margin-top: 10px;
+  margin-right:20px;
+}
+#div2 {
+  width:100%;
+  height:40px;
+
+  background-color:#e4393c;
+}
