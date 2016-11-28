@@ -1,0 +1,89 @@
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.lf {
+	float:left;
+}
+.rt {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+
+#first_box {
+	width:100%;
+	height:200px;
+	border:1px solid black;
+}
+#cate_box {
+	margin:0px auto;
+	width:900px;
+	border:1px solid black;
+	margin-top:10px;
+}
+#cate_box>ul {
+	width:203px;
+	height:402px;
+	padding:4px 3px 3px 0px;
+	border:2px solid #e4393c;
+	border-top:none;
+	background-color:#fafafa;
+/* 绝对定位元素根据父元素的相对定位确定自己的位置，但不能改变父子层次（子上父下） */
+	position:relative;
+	z-index:300;
+}
+#cate_box>ul>li {
+	height:28px;
+	line-height: 28px;
+	border-top:1px solid transparent;
+	border-bottom:1px solid #fff;
+}
+#cate_box>ul>li:hover {
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	background-color:#fff;
+}
+#cate_box>ul>li>h3 {
+  margin:0px;
+  width:186px;
+  height:28px;
+  padding:0px;
+  padding-left:13px;
+  /*total width is 199px*/
+  font-size:14px;
+  font-weight:400;
+}
+#cate_box>ul>li>h3:hover {
+
+}
+#cate_box>ul>li>h3>a {
+  display:inline-block;
+  width:186px;
+  height:28px;
+  color:#333;
+  text-decoration:none;
+}
+#cate_box>ul>li>h3>a:hover {
+	color:red;
+	text-decoration:underline;
+/* the import place of position deal(equal level or children level) */
+	position:relative;
+	z-index:800;
+	background:#fff;
+}
+#sub_cate_box {
+	width:680px;
+	height:350px;
+	border:1px solid #ddd;
+	box-shadow:0 0 10px #ddd;
+	padding:5px;
+	background-color:#fff;
+
+	position:absolute;
+	top:0px;
+	left:198px;
+	z-index:500;
+}
